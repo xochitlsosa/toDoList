@@ -73,7 +73,7 @@ list.addEventListener("click", function (event) {
     const elementData = element.attributes.data.value;
     if (elementData == "done") {
         doneTask(element);
-    } else if (elementData = "discard") {
+    } else if (elementData == "discard") {
         discardTask(element);
     };
 })
